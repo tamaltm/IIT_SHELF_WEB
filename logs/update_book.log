@@ -1,0 +1,276 @@
+
+
+=== 2026-01-19 03:29:13 ===
+Content-Type: multipart/form-data; boundary=------------------------6Dp1toytguZk0xbMGKvJ0C
+_POST: {"isbn":"978-0201400151","title":"Test"}
+_FILES: []
+
+
+=== 2026-01-19 03:29:21 ===
+Content-Type: multipart/form-data; boundary=------------------------DIzb2ZCVL7KrucFaYH4hyY
+_POST: {"isbn":"978-0201400151","title":"Test"}
+_FILES: {"pdf":{"name":"BSSE-Syllabus-Feb-2020.pdf","full_path":"BSSE-Syllabus-Feb-2020.pdf","type":"application\/pdf","tmp_name":"\/tmp\/php4vg81uascmrndYB7TzE","error":0,"size":470}}
+
+
+=== 2026-01-19 03:29:28 ===
+Content-Type: multipart/form-data; boundary=------------------------bXCAx7XE7hRORKKtFpewQ7
+_POST: {"isbn":"978-8175966727","title":"An Introduction to Professional English and Soft Skills"}
+_FILES: {"pdf":{"name":"BSSE-Syllabus-Feb-2020.pdf","full_path":"BSSE-Syllabus-Feb-2020.pdf","type":"application\/pdf","tmp_name":"\/tmp\/phptmdr6ihjf2l6bl3fYdp","error":0,"size":470}}
+
+
+=== 2026-01-19 03:37:09 ===
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryHy0SFbzT7HsdRArk
+_POST: {"isbn":"978-0-201-53174-9","title":"Calculus and Analytic Geometry (often cited simply as Calculus and Analytic Geometry)","author":"George B. Thomas, Jr. and Ross L. Finney","category":"Mathemetics","publisher":"Addison-Wesley Publishing Company, Reading, Massachusetts","publication_year":"1996","edition":"9","description":"","pic_path":"uploads\/books\/323ff758b2ebf8b91a02eecab2f54815.webp","course_ids":"[\"MATH 1107\"]"}
+_FILES: {"pdf":{"name":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","full_path":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","type":"application\/pdf","tmp_name":"\/tmp\/phpcknmg96fotvu1ZcCAkv","error":0,"size":36451853}}
+
+
+=== 2026-01-19 03:44:15 ===
+Content-Type: application/json
+_POST: []
+_FILES: []
+
+
+=== 2026-01-19 03:50:18 ===
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryEQLGFyZZgBNqohSk
+_POST: {"isbn":"978-0-201-53174-9","title":"Calculus and Analytic Geometry (often cited simply as Calculus and Analytic Geometry)","author":"George B. Thomas, Jr. and Ross L. Finney","category":"Mathemetics","publisher":"Addison-Wesley Publishing Company, Reading, Massachusetts","publication_year":"1996","edition":"9","description":"","pic_path":"uploads\/books\/323ff758b2ebf8b91a02eecab2f54815.webp","course_ids":"[\"MATH 1107\"]"}
+_FILES: {"pdf":{"name":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","full_path":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","type":"application\/pdf","tmp_name":"\/tmp\/php9272fn8mifcobbeKKcC","error":0,"size":36451853}}
+Checking for PDF file upload
+_FILES: {"pdf":{"name":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","full_path":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","type":"application\/pdf","tmp_name":"\/tmp\/php9272fn8mifcobbeKKcC","error":0,"size":36451853}}
+Upload dir: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/
+Target path: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/696d559a2513c_dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf
+Temp file: /tmp/php9272fn8mifcobbeKKcC
+Temp file exists: YES
+PDF uploaded successfully to: /api/uploads/pdfs/696d559a2513c_dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf
+
+
+=== 2026-01-19 03:53:00 ===
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryaDAqtf8MWdG5PZoB
+_POST: {"isbn":"978-0-201-53174-9","title":"Calculus and Analytic Geometry (often cited simply as Calculus and Analytic Geometry)","author":"George B. Thomas, Jr. and Ross L. Finney","category":"Mathemetics","publisher":"Addison-Wesley Publishing Company, Reading, Massachusetts","publication_year":"1996","edition":"9","description":"","pic_path":"uploads\/books\/323ff758b2ebf8b91a02eecab2f54815.webp","course_ids":"[\"MATH 1107\"]"}
+_FILES: {"pdf":{"name":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","full_path":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","type":"application\/pdf","tmp_name":"\/tmp\/php33tks9qcmbr4aWbu4EW","error":0,"size":36451853}}
+Checking for PDF file upload
+_FILES: {"pdf":{"name":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","full_path":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","type":"application\/pdf","tmp_name":"\/tmp\/php33tks9qcmbr4aWbu4EW","error":0,"size":36451853}}
+Upload dir: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/
+Target path: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/696d563c422bd_dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf
+Temp file: /tmp/php33tks9qcmbr4aWbu4EW
+Temp file exists: YES
+PDF uploaded successfully to: /api/uploads/pdfs/696d563c422bd_dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf
+pdfUrl set to: /api/uploads/pdfs/696d563c422bd_dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf
+
+
+=== 2026-01-19 03:55:11 ===
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryTz7Sdib2CjbB6oXi
+_POST: []
+_FILES: []
+Checking for PDF file upload
+_FILES: []
+No PDF file in request
+
+
+=== 2026-01-19 03:56:11 ===
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarymwtn7AjePvvcBWZW
+_POST: []
+_FILES: []
+Checking for PDF file upload
+_FILES: []
+No PDF file in request
+
+
+=== 2026-01-19 03:57:50 ===
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryoWhJdf66r5SBMBAA
+_POST: []
+_FILES: []
+Checking for PDF file upload
+_FILES: []
+No PDF file in request
+
+
+=== 2026-01-19 03:59:48 ===
+Content-Type: multipart/form-data; boundary=------------------------WLQ28G83UvNKlwcAv5RZDQ
+_POST: {"isbn":"9781558604919","title":"Test"}
+_FILES: {"pdf":{"name":"BSSE-Syllabus-Feb-2020.pdf","full_path":"BSSE-Syllabus-Feb-2020.pdf","type":"application\/pdf","tmp_name":"\/tmp\/php0f354poesbagbvznTsr","error":0,"size":470}}
+Checking for PDF file upload
+_FILES: {"pdf":{"name":"BSSE-Syllabus-Feb-2020.pdf","full_path":"BSSE-Syllabus-Feb-2020.pdf","type":"application\/pdf","tmp_name":"\/tmp\/php0f354poesbagbvznTsr","error":0,"size":470}}
+Upload dir: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/
+Target path: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/696d57d47eb89_BSSE-Syllabus-Feb-2020.pdf
+Temp file: /tmp/php0f354poesbagbvznTsr
+Temp file exists: YES
+PDF uploaded successfully to: /api/uploads/pdfs/696d57d47eb89_BSSE-Syllabus-Feb-2020.pdf
+pdfUrl set to: /api/uploads/pdfs/696d57d47eb89_BSSE-Syllabus-Feb-2020.pdf
+
+
+=== 2026-01-19 04:00:40 ===
+Content-Type: multipart/form-data; boundary=------------------------If04ADlgbC0LInbBaSrzqm
+_POST: {"isbn":"9781558604919","title":"Computer Organization"}
+_FILES: []
+Checking for PDF file upload
+_FILES: []
+No PDF file in request
+No pdf_url in payload
+
+
+=== 2026-01-19 04:01:30 ===
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary6M7JGTjgNX4vCfBH
+_POST: {"isbn":"978-0-201-53174-9","title":"Calculus and Analytic Geometry (often cited simply as Calculus and Analytic Geometry)","author":"George B. Thomas, Jr. and Ross L. Finney","category":"Mathemetics","publisher":"Addison-Wesley Publishing Company, Reading, Massachusetts","publication_year":"1996","edition":"9","description":"","pic_path":"uploads\/books\/323ff758b2ebf8b91a02eecab2f54815.webp","course_ids":"[\"MATH 1107\"]"}
+_FILES: {"pdf":{"name":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","full_path":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","type":"application\/pdf","tmp_name":"\/tmp\/php8mlu0r0lpn6jaMWc777","error":0,"size":36451853}}
+Checking for PDF file upload
+_FILES: {"pdf":{"name":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","full_path":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","type":"application\/pdf","tmp_name":"\/tmp\/php8mlu0r0lpn6jaMWc777","error":0,"size":36451853}}
+Upload dir: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/
+Target path: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/696d583a66b2c_dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf
+Temp file: /tmp/php8mlu0r0lpn6jaMWc777
+Temp file exists: YES
+PDF uploaded successfully to: /api/uploads/pdfs/696d583a66b2c_dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf
+pdfUrl set to: /api/uploads/pdfs/696d583a66b2c_dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf
+
+
+=== 2026-01-19 04:16:38 ===
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarykvJLTOlASDsIYFCB
+_POST: {"isbn":"978-0-201-53174-9","title":"Calculus and Analytic Geometry (often cited simply as Calculus and Analytic Geometry)","author":"George B. Thomas, Jr. and Ross L. Finney","category":"Mathemetics","publisher":"Addison-Wesley Publishing Company, Reading, Massachusetts","publication_year":"1996","edition":"9","description":"","pic_path":"uploads\/books\/323ff758b2ebf8b91a02eecab2f54815.webp","course_ids":"[\"MATH 1107\"]"}
+_FILES: {"pdf":{"name":"report_most_borrowed_2026-01-16.pdf","full_path":"report_most_borrowed_2026-01-16.pdf","type":"application\/pdf","tmp_name":"\/tmp\/php70mcfo6vu0m8bAwCgQr","error":0,"size":10045}}
+Checking for PDF file upload
+_FILES: {"pdf":{"name":"report_most_borrowed_2026-01-16.pdf","full_path":"report_most_borrowed_2026-01-16.pdf","type":"application\/pdf","tmp_name":"\/tmp\/php70mcfo6vu0m8bAwCgQr","error":0,"size":10045}}
+Upload dir: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/
+Target path: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/696d5bc67a0ef_report_most_borrowed_2026-01-16.pdf
+Temp file: /tmp/php70mcfo6vu0m8bAwCgQr
+Temp file exists: YES
+PDF uploaded successfully to: /api/uploads/pdfs/696d5bc67a0ef_report_most_borrowed_2026-01-16.pdf
+pdfUrl set to: /api/uploads/pdfs/696d5bc67a0ef_report_most_borrowed_2026-01-16.pdf
+
+
+=== 2026-01-19 04:17:18 ===
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLVMeX72AkBHxXY3B
+_POST: {"isbn":"978-8175966727","title":"An Introduction to Professional English and Soft Skills","author":"Bikram K. Das","category":"English communication","publisher":"Cambridge University Press, India","publication_year":"2010","edition":"1","description":"","pic_path":"uploads\/books\/ffb1e52a1ad3a6ca80b9b4bd3aecfb00.jpg","course_ids":"[\"GE 1109\"]"}
+_FILES: {"pdf":{"name":"returned_books_2026-01-09.pdf","full_path":"returned_books_2026-01-09.pdf","type":"application\/pdf","tmp_name":"\/tmp\/phpv6pmkemc9vre2cvw5wW","error":0,"size":927}}
+Checking for PDF file upload
+_FILES: {"pdf":{"name":"returned_books_2026-01-09.pdf","full_path":"returned_books_2026-01-09.pdf","type":"application\/pdf","tmp_name":"\/tmp\/phpv6pmkemc9vre2cvw5wW","error":0,"size":927}}
+Upload dir: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/
+Target path: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/696d5beebd4c4_returned_books_2026-01-09.pdf
+Temp file: /tmp/phpv6pmkemc9vre2cvw5wW
+Temp file exists: YES
+PDF uploaded successfully to: /api/uploads/pdfs/696d5beebd4c4_returned_books_2026-01-09.pdf
+pdfUrl set to: /api/uploads/pdfs/696d5beebd4c4_returned_books_2026-01-09.pdf
+
+
+=== 2026-01-19 04:18:15 ===
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryunASeRhYtsWXZmvc
+_POST: {"isbn":"978-0-201-53174-9","title":"Calculus and Analytic Geometry (often cited simply as Calculus and Analytic Geometry)","author":"George B. Thomas, Jr. and Ross L. Finney","category":"Mathemetics","publisher":"Addison-Wesley Publishing Company, Reading, Massachusetts","publication_year":"1996","edition":"9","description":"","pic_path":"uploads\/books\/323ff758b2ebf8b91a02eecab2f54815.webp","course_ids":"[\"MATH 1107\"]"}
+_FILES: {"pdf":{"name":"Instruction_Lab.pdf","full_path":"Instruction_Lab.pdf","type":"application\/pdf","tmp_name":"\/tmp\/phpv42k549mvado8nJC4S7","error":0,"size":140344}}
+Checking for PDF file upload
+_FILES: {"pdf":{"name":"Instruction_Lab.pdf","full_path":"Instruction_Lab.pdf","type":"application\/pdf","tmp_name":"\/tmp\/phpv42k549mvado8nJC4S7","error":0,"size":140344}}
+Upload dir: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/
+Target path: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/696d5c27b3c82_Instruction_Lab.pdf
+Temp file: /tmp/phpv42k549mvado8nJC4S7
+Temp file exists: YES
+PDF uploaded successfully to: /api/uploads/pdfs/696d5c27b3c82_Instruction_Lab.pdf
+pdfUrl set to: /api/uploads/pdfs/696d5c27b3c82_Instruction_Lab.pdf
+
+
+=== 2026-01-19 04:20:04 ===
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary0bzekyfMfTPV2k5w
+_POST: {"isbn":"978-0-201-53174-9","title":"Calculus and Analytic Geometry (often cited simply as Calculus and Analytic Geometry)","author":"George B. Thomas, Jr. and Ross L. Finney","category":"Mathemetics","publisher":"Addison-Wesley Publishing Company, Reading, Massachusetts","publication_year":"1996","edition":"9","description":"","pic_path":"uploads\/books\/323ff758b2ebf8b91a02eecab2f54815.webp","course_ids":"[\"MATH 1107\"]"}
+_FILES: {"pdf":{"name":"BK07_Schaum's -  Data Structure with JAVA.pdf","full_path":"BK07_Schaum's -  Data Structure with JAVA.pdf","type":"application\/pdf","tmp_name":"\/tmp\/phpraiujji6q7v24NyvRMv","error":0,"size":7583002}}
+Checking for PDF file upload
+_FILES: {"pdf":{"name":"BK07_Schaum's -  Data Structure with JAVA.pdf","full_path":"BK07_Schaum's -  Data Structure with JAVA.pdf","type":"application\/pdf","tmp_name":"\/tmp\/phpraiujji6q7v24NyvRMv","error":0,"size":7583002}}
+Upload dir: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/
+Target path: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/696d5c94bc0ed_BK07_Schaum's -  Data Structure with JAVA.pdf
+Temp file: /tmp/phpraiujji6q7v24NyvRMv
+Temp file exists: YES
+PDF uploaded successfully to: /api/uploads/pdfs/696d5c94bc0ed_BK07_Schaum's -  Data Structure with JAVA.pdf
+pdfUrl set to: /api/uploads/pdfs/696d5c94bc0ed_BK07_Schaum's -  Data Structure with JAVA.pdf
+
+
+=== 2026-01-19 04:23:35 ===
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryudO8EmGHRtNDUQ7I
+_POST: {"isbn":"978-0-201-53174-9","title":"Calculus and Analytic Geometry (often cited simply as Calculus and Analytic Geometry)","author":"George B. Thomas, Jr. and Ross L. Finney","category":"Mathemetics","publisher":"Addison-Wesley Publishing Company, Reading, Massachusetts","publication_year":"1996","edition":"9","description":"","pic_path":"uploads\/books\/323ff758b2ebf8b91a02eecab2f54815.webp","course_ids":"[\"MATH 1107\"]"}
+_FILES: {"pdf":{"name":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","full_path":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","type":"application\/pdf","tmp_name":"\/tmp\/php1u9m6jqb3fga8RzJtv7","error":0,"size":36451853}}
+Checking for PDF file upload
+_FILES: {"pdf":{"name":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","full_path":"dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf","type":"application\/pdf","tmp_name":"\/tmp\/php1u9m6jqb3fga8RzJtv7","error":0,"size":36451853}}
+Upload dir: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/
+Target path: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/696d5d6764464_dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf
+Temp file: /tmp/php1u9m6jqb3fga8RzJtv7
+Temp file exists: YES
+PDF uploaded successfully to: /api/uploads/pdfs/696d5d6764464_dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf
+pdfUrl set to: /api/uploads/pdfs/696d5d6764464_dokumen.pub_calculus-and-analytic-geometry-ninth-edition-0201400154-9780201400151.pdf
+
+
+=== 2026-01-19 04:27:02 ===
+Content-Type: application/json
+_POST: []
+_FILES: []
+Rejected local path pdf_url: /home/tamaltm/Downloads/BSSE-Syllabus-Feb-2020.pdf
+
+
+=== 2026-01-19 04:28:44 ===
+Content-Type: application/json
+_POST: []
+_FILES: []
+Rejected local path pdf_url: /home/tamaltm/Downloads/BSSE-Syllabus-Feb-2020.pdf
+
+
+=== 2026-01-19 04:29:51 ===
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryGSBIr827D7bdzx3N
+_POST: {"isbn":"978-0-201-53174-9","title":"Calculus and Analytic Geometry (often cited simply as Calculus and Analytic Geometry)","author":"George B. Thomas, Jr. and Ross L. Finney","category":"Mathemetics","publisher":"Addison-Wesley Publishing Company, Reading, Massachusetts","publication_year":"1996","edition":"9","description":"","pic_path":"uploads\/books\/323ff758b2ebf8b91a02eecab2f54815.webp","course_ids":"[\"MATH 1107\"]"}
+_FILES: {"pdf":{"name":"BSSE-Syllabus-Feb-2020.pdf","full_path":"BSSE-Syllabus-Feb-2020.pdf","type":"application\/pdf","tmp_name":"\/tmp\/phpk7eru8k3lq2b2Cy2lmL","error":0,"size":3234406}}
+Checking for PDF file upload
+_FILES: {"pdf":{"name":"BSSE-Syllabus-Feb-2020.pdf","full_path":"BSSE-Syllabus-Feb-2020.pdf","type":"application\/pdf","tmp_name":"\/tmp\/phpk7eru8k3lq2b2Cy2lmL","error":0,"size":3234406}}
+Upload dir: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/
+Target path: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/696d5edfaf90b_BSSE-Syllabus-Feb-2020.pdf
+Temp file: /tmp/phpk7eru8k3lq2b2Cy2lmL
+Temp file exists: YES
+PDF uploaded successfully to: /api/uploads/pdfs/696d5edfaf90b_BSSE-Syllabus-Feb-2020.pdf
+pdfUrl set to: /api/uploads/pdfs/696d5edfaf90b_BSSE-Syllabus-Feb-2020.pdf
+
+
+=== 2026-01-19 04:35:53 ===
+Content-Type: multipart/form-data; boundary=dart-http-boundary-9k7qg.V-9wU8y2RyoavYyEK9_lwfWWiBEetWI91UFjA+K3Ujgzf
+_POST: {"isbn":"9781558604919","title":"Computer Organization","author":"David A. Patterson and John L. Hennessy","publisher":"Morgan Kaufmann Publishers","publication_year":"1998","edition":"2","description":"Physical copy can be so gooood","course_ids":"[\"CSE 1101\"]"}
+_FILES: {"pdf":{"name":"Instruction_Lab.pdf","full_path":"Instruction_Lab.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpnpa16t2o4b220jdkJhD","error":0,"size":140344}}
+Checking for PDF file upload
+_FILES: {"pdf":{"name":"Instruction_Lab.pdf","full_path":"Instruction_Lab.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpnpa16t2o4b220jdkJhD","error":0,"size":140344}}
+Upload dir: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/
+Target path: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/696d60499c6bb_Instruction_Lab.pdf
+Temp file: /tmp/phpnpa16t2o4b220jdkJhD
+Temp file exists: YES
+PDF uploaded successfully to: /api/uploads/pdfs/696d60499c6bb_Instruction_Lab.pdf
+pdfUrl set to: /api/uploads/pdfs/696d60499c6bb_Instruction_Lab.pdf
+
+
+=== 2026-01-19 04:37:32 ===
+Content-Type: multipart/form-data; boundary=dart-http-boundary--N46nz9Ye6NS7Uv.KNEUt4lFG+WpKpd1dO89IPTAZNk9v.C-yy4
+_POST: {"isbn":"978-0-201-53174-9","title":"Calculus and Analytic Geometry (often cited simply as Calculus and Analytic Geometry)","author":"George B. Thomas, Jr. and Ross L. Finney","category":"Mathemetics","publisher":"Addison-Wesley Publishing Company, Reading, Massachusetts","publication_year":"1996","edition":"9","course_ids":"[\"MATH 1107\"]"}
+_FILES: {"pdf":{"name":"Instruction_Lab.pdf","full_path":"Instruction_Lab.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phplel63tqh95v15BDPBxQ","error":0,"size":140344}}
+Checking for PDF file upload
+_FILES: {"pdf":{"name":"Instruction_Lab.pdf","full_path":"Instruction_Lab.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phplel63tqh95v15BDPBxQ","error":0,"size":140344}}
+Upload dir: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/
+Target path: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/696d60ac1fb2f_Instruction_Lab.pdf
+Temp file: /tmp/phplel63tqh95v15BDPBxQ
+Temp file exists: YES
+PDF uploaded successfully to: /api/uploads/pdfs/696d60ac1fb2f_Instruction_Lab.pdf
+pdfUrl set to: /api/uploads/pdfs/696d60ac1fb2f_Instruction_Lab.pdf
+
+
+=== 2026-01-19 05:55:09 ===
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary2hEfIFXEDeoccyvd
+_POST: {"isbn":"978-0073383095","title":"Discrete Mathematics and Its Applications","author":"Kenneth H. Rosen","category":"Computer Science","publisher":"","publication_year":"2011","edition":"7","description":"","pic_path":"uploads\/books\/a848d96b4d0a3cdac73780a661c3e66a.jpg","course_ids":"[\"CSE 1103\"]"}
+_FILES: {"pdf":{"name":"BSSE-Syllabus-Feb-2020.pdf","full_path":"BSSE-Syllabus-Feb-2020.pdf","type":"application\/pdf","tmp_name":"\/tmp\/phprmv9t8s0nglgdvFic9Q","error":0,"size":3234406}}
+Checking for PDF file upload
+_FILES: {"pdf":{"name":"BSSE-Syllabus-Feb-2020.pdf","full_path":"BSSE-Syllabus-Feb-2020.pdf","type":"application\/pdf","tmp_name":"\/tmp\/phprmv9t8s0nglgdvFic9Q","error":0,"size":3234406}}
+Upload dir: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/
+Target path: /mnt/academics/iit_shelf_test/backend/api/books/../../uploads/pdfs/696d72dd7663d_BSSE-Syllabus-Feb-2020.pdf
+Temp file: /tmp/phprmv9t8s0nglgdvFic9Q
+Temp file exists: YES
+PDF uploaded successfully to: /api/uploads/pdfs/696d72dd7663d_BSSE-Syllabus-Feb-2020.pdf
+pdfUrl set to: /api/uploads/pdfs/696d72dd7663d_BSSE-Syllabus-Feb-2020.pdf
+
+
+=== 2026-01-19 13:18:15 ===
+Content-Type: application/json
+_POST: []
+_FILES: []
+pdfUrl set to: /api/books/download_pdf.php?isbn=9781558604919
+
+
+=== 2026-01-19 13:18:41 ===
+Content-Type: application/json
+_POST: []
+_FILES: []
+pdfUrl set to: /api/books/download_pdf.php?isbn=9781558604919
