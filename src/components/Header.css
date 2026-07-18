@@ -1,0 +1,365 @@
+.header {
+  background: linear-gradient(120deg, #2f5fe0 0%, #5b4fe0 55%, #7c3aed 100%);
+  border-bottom: none;
+  padding: 0.75rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 12px rgba(30, 20, 90, 0.18);
+}
+
+.header-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  gap: 2rem;
+}
+
+/* Top navigation styles */
+.top-nav {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.top-nav-item {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  padding: 0.5rem 0.875rem;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  position: relative;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.top-nav-item:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.top-nav-item.active {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: 600;
+}
+
+.header-logo {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.header-logo:hover {
+  opacity: 0.85;
+}
+
+.header-logo-icon {
+  width: 28px;
+  height: 28px;
+  color: white;
+}
+
+.header-logo h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 700;
+  color: white;
+}
+
+.header-actions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* Higher-specificity guard: some shared .btn class elsewhere in the app
+   (e.g. for full-width modal buttons) sets width:100%/display:block on
+   .btn, which — at equal specificity — can beat the rules below and make
+   Register/Login stack instead of sitting side by side. These compound
+   selectors (element + class) win the cascade regardless of source order. */
+.header-actions a.btn,
+.header-actions button.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.header-icon-btn {
+  position: relative;
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.85);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-icon-btn:hover {
+  background-color: rgba(255, 255, 255, 0.14);
+  color: white;
+}
+
+/* Notification Bell Icon */
+.notification-bell-wrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification-bell-icon {
+  width: 22px;
+  height: 22px;
+  color: rgba(255, 255, 255, 0.85);
+  transition: all 0.2s ease;
+}
+
+.notification-bell-wrapper:hover .notification-bell-icon {
+  color: white;
+}
+
+.notification-bell-dot {
+  animation: bell-pulse 2s ease-in-out infinite;
+}
+
+@keyframes bell-pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.2);
+  }
+}
+
+.notification-icon {
+  font-size: 1.25rem;
+}
+
+.notification-badge {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background: #ef4444;
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.125rem 0.375rem;
+  border-radius: 9999px;
+  min-width: 1.125rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(239, 68, 68, 0.4);
+  border: 2px solid white;
+}
+
+.header-user {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.header-avatar-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.18);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  transition: all 0.2s ease;
+}
+
+.header-avatar-link:hover {
+  border-color: white;
+  transform: scale(1.05);
+}
+
+.header-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.header-avatar-fallback {
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: white;
+  font-size: 0.875rem;
+}
+
+/* Role indicator and greeting */
+.header-user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+  margin-right: 0.5rem;
+}
+
+.header-role-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  width: fit-content;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+}
+
+/* Role-specific accents — a small left-notch of color on a translucent
+   white chip reads better on the gradient than solid pastel fills */
+.header-role-badge[data-role="student"] {
+  border-color: #bfdbfe;
+}
+
+.header-role-badge[data-role="teacher"] {
+  border-color: #a7f3d0;
+}
+
+.header-role-badge[data-role="librarian"] {
+  border-color: #fde68a;
+}
+
+.header-role-badge[data-role="director"] {
+  border-color: #fecaca;
+}
+
+.header-role-badge:not([data-role]) {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-user-greeting {
+  color: white;
+  font-weight: 600;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header-user-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Logout button — quiet outline on the gradient, warns red on hover */
+.header-user-controls .btn-secondary {
+  background: rgba(255, 255, 255, 0.12);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.header-user-controls .btn-secondary:hover {
+  background: rgba(239, 68, 68, 0.85);
+  color: white;
+  border-color: #ef4444;
+}
+
+/* Register / Login — guest state buttons on the gradient */
+.header-actions .btn-secondary {
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+  padding: 0.5rem 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.header-actions .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: white;
+}
+
+.header-actions .btn-primary {
+  background: white;
+  color: #2f5fe0;
+  border: 1px solid white;
+  font-weight: 600;
+  padding: 0.5rem 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.header-actions .btn-primary:hover {
+  background: rgba(255, 255, 255, 0.9);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .header-actions {
+    gap: 0.5rem;
+  }
+
+  /* Hide role indicator and greeting on small screens */
+  .header-user-info {
+    display: none;
+  }
+
+  /* On small screens collapse username and show only avatar */
+  .header-user-controls {
+    display: none;
+  }
+
+  /* Adjust top navigation for smaller screens */
+  .top-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-container {
+    padding: 0 var(--spacing-sm);
+  }
+
+  .header-logo h2 {
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,68 @@
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--bg-card);
+  border-top: 1px solid var(--border-color);
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.bottom-nav-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.bottom-nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+  border-radius: var(--radius-md);
+  min-width: 70px;
+}
+
+.bottom-nav-item:hover {
+  color: var(--text-primary);
+  background-color: var(--bg-card-hover);
+}
+
+.bottom-nav-item.active {
+  color: var(--primary-blue);
+}
+
+.bottom-nav-icon {
+  font-size: 1.5rem;
+}
+
+.bottom-nav-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .bottom-nav-item {
+    padding: 0.5rem 0.5rem;
+    min-width: 60px;
+  }
+
+  .bottom-nav-label {
+    font-size: 0.7rem;
+  }
+}
+
+/* Hide bottom nav on larger screens since top nav is available in header */
+@media (min-width: 769px) {
+  .bottom-nav {
+    display: none;
+  }
+}

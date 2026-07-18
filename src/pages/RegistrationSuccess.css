@@ -1,0 +1,61 @@
+.success-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-lg);
+  background: linear-gradient(135deg, var(--bg-dark) 0%, #1e293b 100%);
+}
+
+.success-container {
+  background-color: var(--bg-card);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-xl);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  box-shadow: var(--shadow-xl);
+}
+
+.success-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, var(--success), #059669);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: white;
+  margin: 0 auto var(--spacing-lg);
+}
+
+.success-container h1 {
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.success-container p {
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-lg);
+}
+
+.user-id-card {
+  background-color: var(--primary-blue);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--spacing-lg);
+}
+
+.user-id-label {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.875rem;
+  margin-bottom: var(--spacing-xs);
+}
+
+.user-id-value {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
